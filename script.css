@@ -19,7 +19,7 @@ h1
 	margin: 0px;
 
 	color: #FFFFFF;
-	text-shadow: -2px 2px 2px #000000;
+	text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .hello
@@ -34,7 +34,8 @@ h1
 	padding-top: 300px;
 	margin: 0px;
 
-	color: #FFFFFF;	
+	color: #FFFFFF;
+	text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .titles
