@@ -1,0 +1,38 @@
+html, body, h1, h2, h3, h4, p, div {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%;
+}
+
+
+h1 {
+	font-family: futura, edwardian, arial;
+	font-size: 5.625rem;
+	font-weight: bold;
+	color: white;
+	text-shadow: -5px 4px 8px black;
+}
+
+.title p {
+	font-family: futura, edwardian, arial;
+	font-size: 2.5rem;
+	font-weight: normal;
+	color: white;
+	text-shadow: -2.5px 2px 4px black;
+}
+
+.title {
+	text-align: center;
+	border-bottom: 1px solid black;
+	url("pictures/background.jpg") center;
+	height: 100vh;
+	padding: 10% 0px 10% 0px;
+}
+
+.progress {
+	margin: 20px 0 5px 20px;
+	width: 30%;
+	font-weight: bold;
+}
