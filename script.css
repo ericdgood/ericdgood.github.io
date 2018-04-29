@@ -22,7 +22,7 @@ h1
 	font-style: normal;
 	font-weight: bold;
 	line-height: normal;
-	font-size: 8.5rem;
+	font-size: 7.5rem;
 	text-align: center;
 	margin: 0px;
 
@@ -37,9 +37,9 @@ h1
 	font-style: normal;
 	font-weight: bold;
 	line-height: normal;
-	font-size: 6rem;
+	font-size: 5rem;
 	text-align: center;
-	padding-top: 300px;
+	padding-top: 200px;
 	margin: 0px;
 
 	color: #FFFFFF;
@@ -52,7 +52,7 @@ h1
 	font-style: normal;
 	font-weight: 300;
 	line-height: normal;
-	font-size: 3rem;
+	font-size: 2rem;
 	text-align: center;
 	margin: 0px;
 
@@ -65,17 +65,18 @@ h1
 	font-style: normal;
 	font-weight: bold;
 	line-height: normal;
-	font-size: 4rem;
+	font-size: 3rem;
 	text-align: center;
 	text-decoration-line: underline;
-
+	margin-top: 0;
+	padding-top: 20px;
 	color: #5D5D5D;
 }
 
 .me
 {
-	width: 600px;
-	height: 600px;
+	width: 30rem;
+	height: 30rem;
 	border: 1px solid #5D5D5D;
 	box-sizing: border-box;
 	border-radius: 100%;
@@ -90,10 +91,11 @@ h1
 	font-style: normal;
 	font-weight: bold;
 	line-height: normal;
-	font-size: 3.5rem;
+	font-size: 3rem;
 	text-align: center;
-	margin: 0;
+	margin-bottom: 0;
 	color: #5D5D5D;
+	margin-top: 2rem;
 }
 
 .img-mom
@@ -102,11 +104,63 @@ h1
 	font-style: normal;
 	font-weight: 300;
 	line-height: normal;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	text-align: center;
 	margin-top: 0;
-	margin-bottom: 500px;
+	margin-bottom: 30px;
 	color: #5D5D5D;
+}
+
+.bullet
+{
+	width: 80%;
+	margin: auto;
+}
+
+.book, .leader
+{
+	float: left;
+	margin-right: 10%;
+	margin-left: 5%;
+	text-align: center;
+}
+
+.solve, .goal
+{
+	text-align: center;
+	float: right;
+}
+
+.bullet img 
+{
+	width: 200px;
+	height: 200px;
+}
+
+.bullet h3
+{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 2.5rem;
+	text-align: center;
+	margin-top: 10px;
+	color: #5D5D5D;
+	margin-bottom: 15px;
+}
+
+.bullet p
+{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 1.5rem;
+	text-align: center;
+	width: 300px;
+	color: #5D5D5D;
+	margin-bottom: 40px;
 }
 
 
@@ -115,10 +169,11 @@ h1
 
 
 
-
-
-
-
+@media (min-width: 900px) {
+	body {
+		
+	}
+}
 
 
 
