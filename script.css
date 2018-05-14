@@ -147,15 +147,17 @@ h1
 .bullet
 {
 	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
+	align-items: center;
+	flex-direction: column;
 }
 
 
 .book, .leader, .solve, .goal
 {
 	text-align: center;
-	width: 250px;
+	width: 80%;
+	margin-right: 15px;
+	margin-left: 15px;
 }
 
 .bullet img 
@@ -185,7 +187,6 @@ h1
 	font-weight: normal;
 	line-height: normal;
 	font-size: 1.50em;
-/*	text-align: center;*/
 	color: #5D5D5D;
 	margin-bottom: 40px;
 }
@@ -311,15 +312,13 @@ h5
 
 
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	.balance img {
-		display: block;
-	}
-}
+@media screen and (min-width: 900px) {
 
-@media only screen and (min-device-width : 769px) and (max-device-width : 800px) {
-	.balance-img img {
-		display: block;
+	.bullet
+	{
+		display: flex;
+		align-items: center;
+		flex-direction: row;
 	}
 }
 
